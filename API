@@ -22,3 +22,33 @@ API Standards
 - RPC
 - SOAP
 - REST
+
+
+Rest APis ( Representational state transfer)
+Guidelines to be followed in a client server arhietecture ( who to transfer ata between client - server)
+
+
+Guideline of REST
+1. Client server architecture
+2. Cachable
+3. Layered
+3. Stateless
+4. Uniform interface
+5. Code on demand ( means that a server can send code to client that it should  execute on runtime
+
+
+
+
+
+ Path parameter 
+Query  parameter  ?limit-20&ofset=0&tag=fiction
+
+
+HTTP Responses
+1. 200 - OK
+2. 201 - created
+3. 400 - bad request
+4. 500 - server side issue
+5. 3xx - Redirection
+
+
