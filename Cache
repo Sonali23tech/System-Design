@@ -1,0 +1,15 @@
+Caching
+- Cache invalidation
+Removing old values from cache after certian time
+
+- Cache evication  (removingkey to add new keys)
+ -FIFI
+ -LRU
+ - LFU
+
+- Cache-aside strategy/ Pattern
+- Read thorugh strategy/ Pattern 
+- Write thorugh strategy/Pattern
+-  Write around stratengy/Pattern
+- Write back strategy/ Pattern
+
