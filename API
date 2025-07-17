@@ -1,0 +1,24 @@
+APIs
+Application programming interface
+
+Apis are used to communicate berween different serivces
+APIs provides abstraction 
+Platform agontisc
+
+
+Examples of APIs
+1. Private API
+2. Public API
+3. Web API
+3. SDK/Library APIs
+
+API Factors
+1. API Contracts
+2. Documentation
+3. Data format
+4. Security
+
+API Standards
+- RPC
+- SOAP
+- REST
