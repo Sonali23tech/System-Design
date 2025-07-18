@@ -1,0 +1,32 @@
+Message Queues
+- Sync v/s async communication
+In sync communcation both the parties continuously exhanging information
+In async communcation continuous exchange of information is not necessary
+
+Message queue is used to accomplish async communication.
+Message queues are a middleware used by different parts of a system( say producers and consumers) to  communicate or process operations asynchronously.
+
+- SQS
+- Kafka
+- RabbitMQ
+
+Producer- send mesages to queue
+Consumer - consume messages from queue and do the processing
+
+Ordering and consumption
+1. Ordered MQs (eg - text messages)
+2. Unordered MQs (eg- invoice generation requests)
+
+1. One to one(producer consumer model)
+2. One to many( publisher subscriber model)
+Amazon SQS used fifo ordered
+
+
+Pub- sub messaging
+
+Use case of pub sub
+1. Async workflow
+2. Decoupling
+3. Load balancing
+4. Deffered processing
+5. Data streaming
