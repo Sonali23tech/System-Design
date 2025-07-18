@@ -1,0 +1,42 @@
+- ThroughPut (workdone/time)
+Some amount of work done in a particular time
+Number of APIs calls servered per unit time
+
+- BandWidth
+- Response Time
+
+
+Performance of components-
+- Applications
+1. API response time
+2. Throughput of APIs
+3. Error occurences
+4. Bug/Defect in the code
+
+
+- Databses
+1. time taken by various dateabase queries
+2. number of queries executed per unit time(throughput)
+
+-Cache
+1. Latency of writing to cache 
+2. Number of cache envication and invalidation
+3. Memory of cache instance
+
+-Message Queues
+1. Rate of production and consumption
+2. Fraction of stale or unprocessed messages
+3. Number of consumers affects bandwidth and throughput
+
+- Workers
+1. Time take for job completion
+2. Resources used in processing
+
+- Server instances
+1. 
+
+- Metric tools (Performance managment tools)
+like newrelic , datadog
+
+
+
