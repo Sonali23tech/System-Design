@@ -1,0 +1,30 @@
+Partioning the dataset into different database
+
+
+Vertical Partioning
+- Pationing on the bases of column 
+
+
+Horizontal Partioning
+-Partioning on the bases of rows  and this is known as sharding
+
+
+
+Logical sharding
+
+Physical sharding
+
+Advantages of sharding
+- faster query , better performance
+- we can place different shards on different location
+- no single point of failure
+
+Types of  sharding
+- Alogthirm sharding - if app / client knows which shard to go to fetch data 
+- Dynamic sharding  - if there is some other module which clients have to query to fetch data
+
+
+Disadvantage of sharding
+- choosing sharding key correctly matters
+- once you have partioned the data  it is hard to rejoin the data
+- all the database doesn't provide inbuilt sharding technologies
