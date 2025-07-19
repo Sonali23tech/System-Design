@@ -1,0 +1,25 @@
+Distributed System
+- A system consisting of a group of machines working in coordination so as to appear as a single coherant system to the end-user.
+
+
+ Consistency 
+- Any read that is happening after a latest wite, all the nodes should return the latest value of that write
+
+Availability
+- Every available node in the system should respond in a non error format to any read request without guarantee of returning the latest write.
+
+Partition tolerance
+- System will be responding to all the read and write even if the comunication channel(or middleware) between nodes is broken( or partitioned).
+
+
+
+What is the CAP Theorem
+--  also known as brewer's theorem
+--  any network shared system wants to have these three propoerties but you can have only 2 at time where partition tolerance is mandatory.
+
+
+Degrees of consistency and avaiability
+What to sacrifice C A  or P?
+
+
+Tweaking partition tolerance
