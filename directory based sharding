@@ -1,0 +1,4 @@
+there is lookup table that maintains a data to go to which shard
+
+
+  - action depends of lookup table so if lookup table fails , whole system goes down.
