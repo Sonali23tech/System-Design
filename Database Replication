@@ -1,0 +1,30 @@
+Replication means to have a copy
+DB that has main data is primary db
+and db that have copy is secondary.
+
+Why we need replication?
+- For mananging faults
+- help to reduce latency  (by keeping copy near to your location) 
+- primary data can be used for write and updates and secondary is used for reads only.
+
+Replication lag - time it takes to copy update data from primary to secondary db
+
+Complexity in replications
+- when replication is huge , insconsitent data in secondary
+
+How to solve this?
+- Consistency Model
+  - Read after write ( Replication lag is zero) , also called synchronous replication
+All replicas have to be updated before host  aknowledged
+  -   Asynchromous replication
+Host is aknowledged after primary DB is updated.Replicas update asynchronously.
+
+ - Semi- synchronous
+Only one replica can acknowledge where primary db wait for only one replica achknowlegmenet.
+
+
+Replica v/s snapshot
+Snapshot is taking state of data t sepecific time.
+
+
+   
