@@ -1,0 +1,14 @@
+choose Key on the bases you want to divide the data
+
+Choos a hashfunction and hashfunction will return the shard value. and this is example of alogthermic sharding
+
+- Data is evenly distributed in this sharding
+
+- if the data increases you have to add a new shard , your hashing function changes data have to be move from old shard to new shard
+
+How to use sharding key?
+- should static in nature
+- we can choose combination of multiple columns as well
+
+
+
