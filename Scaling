@@ -1,0 +1,13 @@
+Vetical Scaling - when you increase the capacity of existing resource.
+Horizontal Scaling - when we increase number of resources
+
+Scaling means handling more request gracefully
+- handle increased load
+- not complex
+- performance should not take a hit
+
+
+If all this above points are checked , system is scalable.
+
+
+
