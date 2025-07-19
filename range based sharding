@@ -1,0 +1,9 @@
+When you to store based on some range 
+example- month wise
+
+Advantage
+-  same database schema
+- since ther is no hash function  on moving of data is not happening
+-  a hotspot if one shard is holding alot of data in comparison to others.
+
+
