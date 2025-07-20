@@ -1,0 +1,15 @@
+Application layer 
+- two types
+  - client server protocol  - cleint sends the request thn only server will respond
+   - http (hypertext transfer protocol) - connection oriented ,  it is 1 connection protocol
+  - ftp - 2 connection , one is data connection and second is control connection
+  - smtp - used for sending mail/email
+  - websocket - both client and server will send request
+- peer to peer
+  - server and client can talk to each other
+ - webRTC
+
+
+Transport layer 
+ - tcp/ip
+- udp
