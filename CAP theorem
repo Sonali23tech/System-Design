@@ -3,7 +3,7 @@ Distributed System
 
 
  Consistency 
-- Any read that is happening after a latest wite, all the nodes should return the latest value of that write
+- Any read that is happening after a latest write, all the nodes should return the latest value of that write
 
 Availability
 - Every available node in the system should respond in a non error format to any read request without guarantee of returning the latest write.
