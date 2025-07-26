@@ -1,5 +1,25 @@
-Vetical Scaling - when you increase the capacity of existing resource.
-Horizontal Scaling - when we increase number of resources
+Scalability is the property of a system to handle a growing amount of load by adding resources to the system.
+A system that can continuously evolve to support a growing amount of work is scalable.
+How can a System Grow?
+1. Growth in User Base
+2. Growth in Features
+3. Growth in Data Volume
+4. Growth in Complexity
+5. Growth in Geographic Reach
+
+How to Scale a System?
+
+1.Vetical Scaling - when you increase the capacity of existing resource.
+2. Horizontal Scaling - when we increase number of resources
+3. Load Balancing
+4. Caching
+5. Content delivery network- CDN distributes static assets (images, videos, etc.) closer to users. This can reduce latency and result in faster load times.
+6. Sharding/Partitioning
+7. Asynchronous communication - Asynchronous communication means deferring long-running or non-critical tasks to background queues or message brokers.
+8. Microservices Architecture
+9. Auto-Scaling
+10. Multi-region Deployment
+
 
 Scaling means handling more request gracefully
 - handle increased load
