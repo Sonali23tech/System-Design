@@ -1,0 +1,19 @@
+Availability refers to the proportion of time a system is operational and accessible when required.
+Availability = Uptime / (Uptime + Downtime)
+
+Availability is often expressed in "nines". The higher the availability, the less downtime there is.
+Each additional "nine" represents an order of magnitude improvement in availability.
+
+Example: 99.99% availability represents a 10-fold improvement in uptime compared to 99.9%.
+
+Strategies for Improving Availability
+1. Redundancy-Redundancy involves having backup components that can take over when primary components fail.
+2. Load Balancing- Load balancing distributes incoming network traffic across multiple servers to ensure no single server becomes a bottleneck, enhancing both performance and availability.
+Techniques:
+Hardware Load Balancers: Physical devices that distribute traffic based on pre-configured rules.
+
+Software Load Balancers: Software solutions that manage traffic distribution, such as HAProxy, Nginx, or cloud-based solutions like AWS Elastic Load Balancer.
+
+3. Failover Mechanisms- Failover mechanisms automatically switch to a redundant system when a failure is detected.
+4. 4. Data Replication
+5. Monitoring and Alerts
