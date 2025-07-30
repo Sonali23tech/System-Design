@@ -1,0 +1,12 @@
+What is a Database Transaction?
+A transaction in the context of databases is a sequence of one or more operations (such as inserting, updating, or deleting records)
+that the database treats as one single action. It either fully succeeds or fully fails, with no in-between states.
+
+1. Atomicity
+Atomicity ensures that a transaction—comprising multiple operations—executes as a single and indivisible unit of work: it either fully succeeds (commits) or fully fails (rolls back).
+
+2.Consistency in the context of ACID transactions ensures that any transaction will bring the database from one valid state to another valid state—never leaving it in a broken or “invalid” state.
+
+3.Isolation ensures that concurrently running transactions do not interfere with each other’s intermediate states.
+
+Durability ensures that once a transaction has been committed, the changes it made will survive, even in the face of power failures, crashes, or other catastrophic events.
