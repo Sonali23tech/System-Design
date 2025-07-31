@@ -1,0 +1,13 @@
+Round Robin: Simple and even distribution, best for homogeneous servers.
+
+Weighted Round Robin: Distributes based on server capacity, good for heterogeneous environments.
+
+Least Connections: Dynamically balances based on load, ideal for varying workloads.
+
+Least Response Time: Optimizes for fastest response, best for environments with varying server performance.
+
+IP Hash: Ensures session persistence, useful for stateful applications.
+
+
+
+https://blog.algomaster.io/p/load-balancing-algorithms-explained-with-code
