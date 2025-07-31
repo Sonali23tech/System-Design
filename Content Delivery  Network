@@ -1,0 +1,11 @@
+A CDN is a geographically distributed network of servers that work together to deliver web content
+(like HTML pages, JavaScript files, stylesheets, images, and videos) to users based on their geographic location.
+
+
+A CDN operates using three key components:
+
+Edge Servers – Located at Points of Presence (PoP) locations, these servers cache and deliver content closer to users.
+
+Origin Servers – The primary servers where the original content is stored.
+
+DNS (Domain Name System) – Directs user requests to the nearest edge server instead of the origin server.
